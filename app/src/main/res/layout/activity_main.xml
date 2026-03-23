@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#F3E5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inscription"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prénom et Nom"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"/>
+        <EditText
+            android:id="@+id/edit_prenom_nom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : Houda Sas"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adresse e-mail"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"/>
+        <EditText
+            android:id="@+id/edit_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : houda@gmail.com"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numéro de téléphone"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"/>
+        <EditText
+            android:id="@+id/edit_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : +212600000000"
+            android:inputType="phone"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rue et numéro"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"/>
+        <EditText
+            android:id="@+id/edit_rue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : 12, Rue Al Massira"
+            android:inputType="textPostalAddress"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ville"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"/>
+        <EditText
+            android:id="@+id/edit_ville"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : Marrakech"
+            android:inputType="textCapWords"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btn_soumettre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soumettre"
+            android:backgroundTint="#6A1B9A"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
