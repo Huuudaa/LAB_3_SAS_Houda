@@ -41,6 +41,7 @@ La navigation entre les deux écrans utilise un **Intent explicite** avec transm
 |---|---|---|
 | `TextView` | `text_recap` | Affiche les données reçues |
 | `Button` | `btn_retour` | Ferme l'écran via `finish()` |
+<img width="299" height="210" alt="image" src="https://github.com/user-attachments/assets/8dc6d660-47d1-4a6c-9d9c-d675589ed28a" />
 
 ---
 
