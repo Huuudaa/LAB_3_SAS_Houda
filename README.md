@@ -33,6 +33,8 @@ La navigation entre les deux écrans utilise un **Intent explicite** avec transm
 | `EditText` | `edit_ville` | Saisie ville |
 | `Button` | `btn_soumettre` | Valider et naviguer |
 
+<img width="300" height="673" alt="image" src="https://github.com/user-attachments/assets/aee1204c-291b-4807-babc-85e10d64b59e" />
+
 ### Écran 2 — Récapitulatif (`RecapActivity`)
 
 | Composant | ID | Rôle |
